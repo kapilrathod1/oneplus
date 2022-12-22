@@ -18,17 +18,18 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    padding: 10px 60px;
+    padding: 10px 45px;
     align-items: center;
 }
 
 nav li {
     margin-right: 20px;
+    font-size: 14px;
 }
 
 nav i {
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 nav span img {
@@ -70,7 +71,7 @@ nav span img {
 }
 
 .text-section-up h1 {
-    font-size: 44px;
+    font-size: 40px;
     margin-top: 10px;
     color: #fff;
 }
@@ -78,11 +79,12 @@ nav span img {
 .text-section-up h3 {
     color: #fff;
     margin-top: 35px;
+    font-size: 18px;
 }
 
 .text-section-down p {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -99,28 +101,26 @@ nav span img {
 }
 
 .third-container {
-    height: 75vh;
+    height: 90vh;
     /* background-color: bisque; */
     display: flex;
-    padding: 60px 105px;
-
-
+    padding: 60px 65px;
 }
 
 .third-container .text-section {
-    width: 40%;
+    width: 35%;
     display: flex;
+    padding: 0 15px;
     flex-direction: column;
     justify-content: space-between;
     background-color: #fff;
 }
-
 .third-container .text-section h3 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .third-container .text-section h1 {
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 300;
     margin-top: 10px;
 }
@@ -134,6 +134,7 @@ nav span img {
 .third-container .text-section p {
     font-weight: 600;
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
 .third-container .text-section .button {
@@ -142,10 +143,10 @@ nav span img {
 
 .third-container .text-section .button .buy-btn {
     width: 210px;
-    height: 42px;
+    height: 38px;
     background-color: black;
     color: #fff;
-    font-size: 16px;
+    font-size: 13px;
     border-radius: 3px;
     margin-right: 10px;
 
@@ -153,8 +154,8 @@ nav span img {
 
 .third-container .text-section .button .learn-btn {
     width: 210px;
-    height: 42px;
-    font-size: 16px;
+    height: 38px;
+    font-size: 13px;
     font-weight: 600;
     color: black;
     background-color: #fff;
@@ -164,13 +165,13 @@ nav span img {
 
 .third-container .img-section {
     background-image: url(./assets/_10t.jpg.thumb);
-    height: 60vh;
-    width: 75%;
+    height: 70vh;
+    width: 65%;
     background-size: cover;
 }
 
 .fourth-container {
-    padding: 0px 105px;
+    padding: 0px 65px;
     display: flex;
     justify-content: space-between;
 }
@@ -206,19 +207,19 @@ nav span img {
 }
 
 .fourth-container .tv-section .text-section .button .buy-btn {
-    width: 150px;
-    height: 38px;
+    width: 120px;
+    height: 35px;
     background-color: black;
     color: #fff;
-    font-size: 16px;
+    font-size: 13px;
     border-radius: 3px;
     margin-right: 10px;
 
 }
 
 .fourth-container .tv-section .text-section .button .learn-btn {
-    width: 150px;
-    height: 38px;
+    width: 120px;
+    height: 35px;
     font-size: 16px;
     font-weight: 600;
     color: black;
@@ -229,7 +230,7 @@ nav span img {
 
 
 .fourth-container .tv-section img {
-    height: 360px;
+    height: 300px;
 }
 
 .fourth-container .tv-section .text-section .tv-png {
@@ -241,13 +242,13 @@ nav span img {
 }
 
 .fifth-container {
-    padding: 40px 105px;
+    padding: 40px 65px;
     display: flex;
     flex-direction: column;
 }
 
 .fifth-container h1 {
-    font-size: 19px;
+    font-size: 16px;
     margin-bottom: 10px;
     color: rgb(0, 0, 0, 0.65);
 }
@@ -262,7 +263,7 @@ nav span img {
     display: flex;
     align-items: center;
     margin-bottom: 35px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
 
 }
@@ -273,23 +274,26 @@ nav span img {
 
 .fifth-container .img-section {
     display: flex;
-
+    justify-content: space-between ;
 }
 
 .fifth-container .img-section .first-img {
     /* margin-right: 20px; */
     /* background-color: aquamarine; */
-    height: 500px;
-    width: 360px;
+    height: 450px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
 }
 
 .fifth-container .img-section img {
-    height: 320px;
+    height: 250px;
     background-color: #f8f8f8;
 }
 
 .fifth-container .img-section h2 {
-    font-size: 27px;
+    font-size: 22px;
     margin: 10px 0px;
 }
 
@@ -306,7 +310,7 @@ nav span img {
 
 .fifth-container .img-section button {
     height: 40px;
-    width: 315px;
+    width: 265px;
     text-align: left;
     font-size: 15px;
     border: none;
@@ -333,7 +337,7 @@ nav span img {
 }
 
 .sixth-container {
-    padding: 50px 105px;
+    padding: 50px 65px;
     display: flex;
     flex-direction: column;
     color: #fff;
@@ -341,7 +345,7 @@ nav span img {
 }
 
 .sixth-container .feature {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.865);
 }
@@ -352,11 +356,12 @@ nav span img {
 }
 
 .sixth-container .ai {
-    font-size: 42px;
+    font-size: 16px;
     font-weight: 300;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     line-height: 20px;
-    margin-top: 20px;
+    margin-top: 5px;
+    position: relative;
 }
 
 .sixth-container .ai a {
@@ -366,27 +371,26 @@ nav span img {
 
 .sixth-container .ai i {
     font-size: 70px;
+    position: absolute;
+    top: -24px;
 }
 
 
 .third-2-container {
     display: flex;
+    justify-content: space-between;
 
 }
 
 .third-2-container .text-section {
-    width: 40%;
+    width: 32%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.third-2-container .text-section h3 {
-    font-size: 22px;
-}
-
 .third-2-container .text-section h1 {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 300;
     margin-top: 10px;
 }
@@ -398,7 +402,9 @@ nav span img {
 } */
 
 .third-2-container .text-section p {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 24px;
 }
 
 .third-2-container .text-section a {
@@ -408,16 +414,26 @@ nav span img {
 
 .third-2-container .img-section {
     background-image: url(./assets/pc_4.jpg.thumb.webp);
-    height: 60vh;
-    width: 75%;
+    height: 75vh;
+    width: 65%;
     background-size: cover;
+    background-position: center;
 }
 
 .third-2-container .img-section-2 {
     background-image: url(./assets/OneTopia-PC.jpg.thumb.webp);
-    height: 60vh;
-    width: 75%;
+    height: 75vh;
+    width: 65%;
     background-size: cover;
+    background-position: center;
+}
+.ai-2{
+    line-height: 30px !important;
+    position: relative;
+}
+.ai-2 i{
+    position: absolute !important;
+    top: 10px !important;
 }
 
 .three {
@@ -450,6 +466,7 @@ nav span img {
 
 .one-4 p {
     margin-bottom: 20px;
+
 }
 
 .one-4 a {
@@ -458,8 +475,8 @@ nav span img {
 
 .two-3 .img-section-2 {
     background-image: url(./assets/RCC-pc.jpg.thumb.webp);
-    height: 60vh;
-    width: 75%;
+    height: 70vh;
+    width: 65%;
     background-size: cover;
 }
 
@@ -499,7 +516,7 @@ nav span img {
 }
 
 .eighth-container {
-    padding: 0px 105px;
+    padding: 0px 65px;
     display: flex;
     justify-content: space-between;
 }
@@ -509,17 +526,19 @@ nav span img {
 }
 
 .eighth-container .first-box img {
-    height: 280px;
+    height: 250px;
 }
 
 .eighth-container .first-box h1 {
-    font-weight: 300;
+    font-weight: 600;
+    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .eighth-container .first-box p {
     margin-bottom: 20px;
+    font-size: 14px;
 }
 
 .eighth-container .first-box a {
@@ -568,7 +587,7 @@ nav span img {
 
 .ninth-container {
     height: 70vh;
-    padding: 50px 105px;
+    padding: 50px 65px;
     color: #fff;
     background-color: black;
 }
@@ -677,7 +696,7 @@ nav span img {
 }
 
 .last-container {
-    padding: 20px 120px;
+    padding: 20px 65px;
 
 }
 
@@ -737,9 +756,10 @@ nav span img {
 }
 
 .footer {
-    padding: 20px 120px;
+    padding: 20px 45px;
     height: 18vh;
     display: flex;
+    margin-bottom: 20px;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -769,6 +789,7 @@ nav span img {
 
 .footer .second-box {
     display: flex;
+    margin-top: 30px;
     justify-content: space-between;
 }
 
@@ -776,10 +797,14 @@ nav span img {
     color: rgb(0, 0, 0, 0.6);
     font-size: 14px;
     font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer .second-box img{
+    height: 40px;
 }
 
 
-@media(max-width:786px) {
+@media(max-width:768px) {
     nav ul {
         display: none;
     }
@@ -851,6 +876,7 @@ nav span img {
 
     .fifth-container .img-section {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .fifth-container ul {
@@ -978,5 +1004,14 @@ nav span img {
     }
    .footer .first-box ul{
         flex-wrap: wrap;
+   }
+   .footer .first-box ul li{
+padding-left: 5px;
+margin-left: 5px;
+font-size: 12px;
+   }
+   .footer .second-box{
+    flex-direction: column;
+    align-items: flex-start;
    }
 }
