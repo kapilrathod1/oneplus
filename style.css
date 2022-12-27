@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 nav {
@@ -743,6 +744,10 @@ color: rgb(0, 81, 255);
     margin-bottom: 20px;
     font-weight: 600;
     color: rgb(0, 0, 0, 0.5);
+}
+.last-container .ul-box ul li:hover{
+    color: black;
+    text-decoration: underline;
 }
 
 .ul-2 {
